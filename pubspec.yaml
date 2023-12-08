@@ -1,5 +1,5 @@
 name: xpense_web_flutter
-description: A new Flutter project.
+description: Front end for a SaaS using Flutter.
 publish_to: 'none'
 version: 0.1.0
 
@@ -7,8 +7,11 @@ environment:
   sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
+  entry: ^0.0.9
   flutter:
     sdk: flutter
+  google_fonts: ^6.1.0
+  responsive_builder: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +20,34 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/illustration1.png
+    - assets/images/illustration2.png
+    - assets/images/cocacola.png
+    - assets/images/dashboard.png
+    - assets/images/fb.png
+    - assets/images/illustration3.png
+    - assets/images/linkedin.png
+    - assets/images/samsung.png
+    - assets/images/vector.png
+    - assets/images/vector1.png
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+    - family: HindSiliguri
+      fonts:
+        - asset: assets/fonts/HindSiliguri-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/HindSiliguri-Light.ttf
+          weight: 300
+        - asset: assets/fonts/HindSiliguri-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/HindSiliguri-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/HindSiliguri-SemiBold.ttf
+          weight: 600
