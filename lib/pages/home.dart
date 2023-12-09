@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:xpense_web_flutter/pages/containers/container1.dart';
+import 'package:xpense_web_flutter/pages/containers/container2.dart';
+import 'package:xpense_web_flutter/pages/containers/container3.dart';
 import 'package:xpense_web_flutter/utils/constants.dart';
 import 'package:xpense_web_flutter/widgets/navbar.dart';
-
+//import 'dart:ui_web' as ui; 
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -21,7 +23,9 @@ class _HomeState extends State<Home> {
         child: Container(
           child:Column(children: [
             NavBar(),
-            Container1()
+            Container1(),
+            Container2(),
+            Container3(),
           ],)
 
           
