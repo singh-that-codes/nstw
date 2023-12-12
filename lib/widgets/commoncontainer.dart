@@ -83,36 +83,7 @@ Widget CommonContainerDesktop(String s1, s2, s3, image, bool imageLeft) {
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//-------------------------MOBILE--------------------------
-
-
-
-
-
-
-
-
-
+//-------------------------MOBILE-------------------------
 
 Widget CommonContainerMobile(String s1, s2, s3, image) {
   return Container(
