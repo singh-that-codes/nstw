@@ -23,7 +23,7 @@ class _Container5State extends State<Container5> {
 
 //----------------------DESKTOP----------------------
 Widget DesktopContainer5() {
-  return CommonContainer(
+  return CommonContainerDesktop(
       'USE ANYTIME',
       'Use anytime \nwhen you \nneed',
       'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
@@ -33,10 +33,10 @@ Widget DesktopContainer5() {
 
 //--------------------MOBILE---------------------------
 Widget MobileContainer5() {
-  return CommonContainer(
+  return CommonContainerMobile(
       'USE ANYTIME',
       'Use anytime \nwhen you \nneed',
-      'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
+      'Tell us about ourseleves evakljd djf vdsn vkdfj vjdkj djf vdsn vkdfj vjdkj',
       illustration3,
-      true);
+      );
 }

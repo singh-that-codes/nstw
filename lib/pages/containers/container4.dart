@@ -22,7 +22,7 @@ class _Container4State extends State<Container4> {
 }
 //----------------------DESKTOP----------------------
 Widget DesktopContainer4() {
-  return CommonContainer(
+  return CommonContainerDesktop(
       'FREE SOME COST',
       'Save cost \nfor you and \nfamily',
       'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
@@ -31,10 +31,10 @@ Widget DesktopContainer4() {
 }
 //--------------------MOBILE---------------------------
 Widget MobileContainer4() {
-  return CommonContainer(
+  return CommonContainerMobile(
       'ALWAYS ONLINE',
       'Real-time \nsupport \nwith cloud',
-      'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
+      'Tell us about ourseleves evakljd djf vdsn vkdfj vjdkj djf vdsn vkdfj vjdkj',
       illustration2,
-      true);
+      );
 }
