@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:xpense_web_flutter/utils/colors.dart';
-import 'package:xpense_web_flutter/utils/constants.dart';
 import 'package:xpense_web_flutter/utils/styles.dart';
+import 'package:xpense_web_flutter/widgets/navbutton.dart';
+import 'package:xpense_web_flutter/widgets/navlogo.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
@@ -70,32 +71,6 @@ class _NavBarState extends State<NavBar> {
             ),
         ],
       ),
-    );
-  }
-  Widget navButton(String text){
-    return Container(
-      margin: EdgeInsets.symmetric(horizontal: 10),
-      child: TextButton(
-        //style: borderedButtonStyle,
-        onPressed: (){},
-        child: Text(
-          text,
-          style:TextStyle(
-            color:Colors.black,
-            fontSize: 18,
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget navLogo(){
-    return Container(
-      width: 110,
-      decoration: BoxDecoration(
-        image: DecorationImage(image: AssetImage(logo),
-        ),
-      )
     );
   }
 }
