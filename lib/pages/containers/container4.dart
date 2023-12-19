@@ -23,18 +23,18 @@ class _Container4State extends State<Container4> {
 //----------------------DESKTOP----------------------
 Widget DesktopContainer4() {
   return CommonContainerDesktop(
-      'FREE SOME COST',
-      'Save cost \nfor you and \nfamily',
-      'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
+      'BRANDING AND DIGITAL MARKETING',
+      'Elevate YourPresence,\nIgnite Your Brand',
+      'Ignite your brand with our comprehensive digital marketing services. From strategic branding to powerful online campaigns, we amplify your presence, ensuring your business shines in the digital landscape.',
       illustration2,
       true);
 }
 //--------------------MOBILE---------------------------
 Widget MobileContainer4() {
   return CommonContainerMobile(
-      'ALWAYS ONLINE',
-      'Real-time \nsupport \nwith cloud',
-      'Tell us about ourseleves evakljd djf vdsn vkdfj vjdkj djf vdsn vkdfj vjdkj',
+      'BRANDING AND DIGITAL MARKETING',
+      'Elevate YourPresence,\nIgnite Your Brand',
+      'Ignite your brand with our comprehensive digital marketing services. From strategic branding to powerful online campaigns, we amplify your presence, ensuring your business shines in the digital landscape.',
       illustration2,
       );
 }

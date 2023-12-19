@@ -24,9 +24,9 @@ class _Container3State extends State<Container3> {
 //----------------------DESKTOP----------------------
 Widget DesktopContainer3() {
   return CommonContainerDesktop(
-    'ALWAYS ONLINE',
-    'Real-time \nsupport \nwith cloud',
-    'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
+    'BESPOKE SOFTWARE DEVELOPMENT',
+    'Tailored Solutions for\nUnmatched Performance',
+    'Crafting personalized software solutions\n,we bring your vision to life.\n From portfolios to cutting-edge web\n and mobile applications, \nour bespoke development ensures a\n seamless and unique experience.',
     illustration1,
     false
   );
@@ -36,9 +36,9 @@ Widget DesktopContainer3() {
   //--------------------MOBILE---------------------------
   Widget MobileContainer3() {
   return CommonContainerMobile(
-      'SAVE SOME COST',
-      'Save cost \nfor you your\nfamily',
-      'Tell us about ourseleves evakljd djf vdsn vkdfj vjdkj djf vdsn vkdfj vjdkj',
-      illustration1,
-      );
+    'BESPOKE SOFTWARE DEVELOPMENT',
+    'Tailored Solutions for\nUnmatched Performance',
+    'Crafting personalized software solutions\n,we bring your vision to life.\n From portfolios to cutting-edge web\n and mobile applications, \nour bespoke development ensures a\n seamless and unique experience.',
+    illustration1,
+    );
 }

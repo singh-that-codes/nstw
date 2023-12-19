@@ -29,7 +29,11 @@ class _NavBarState extends State<NavBar> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Icon(Icons.menu),
-          navLogo()
+          navLogo(),
+          navButton('Services'),
+          navButton('About'),
+          navButton('Get in touch'),
+          navButton('Blog'),
         ],
       )
     );
@@ -47,10 +51,10 @@ class _NavBarState extends State<NavBar> {
           children: [
           navLogo(),
           Row(children: [
-              navButton('Features'),
-              navButton('About Us'),
-              navButton('Pricing'),
-              navButton('Feedback'),
+              navButton('Services'),
+              navButton('About'),
+              navButton('Get in touch'),
+              navButton('Blog'),
             ],
           ),
           Container(
@@ -59,7 +63,7 @@ class _NavBarState extends State<NavBar> {
               style: borderedButtonStyle,
               onPressed: (){},
               child: Text(
-                'Request a Demo',
+                'Get free consultation',
                 style: TextStyle(color: AppColors.primary)
               ),
             )

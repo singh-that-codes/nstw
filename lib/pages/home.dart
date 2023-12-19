@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xpense_web_flutter/pages/containers/container1.dart';
-import 'package:xpense_web_flutter/pages/containers/container2.dart';
+//import 'package:xpense_web_flutter/pages/containers/container2.dart';
 import 'package:xpense_web_flutter/pages/containers/container3.dart';
 import 'package:xpense_web_flutter/pages/containers/container4.dart';
 import 'package:xpense_web_flutter/pages/containers/container5.dart';
@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
           child:Column(children: [
             NavBar(),
             Container1(),
-            Container2(),
+            //Container2(),
             Container3(),
             Container4(),
             Container5(),

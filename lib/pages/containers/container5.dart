@@ -24,9 +24,9 @@ class _Container5State extends State<Container5> {
 //----------------------DESKTOP----------------------
 Widget DesktopContainer5() {
   return CommonContainerDesktop(
-      'USE ANYTIME',
-      'Use anytime \nwhen you \nneed',
-      'Tell us about ourseleves evakljd \ndjf vdsn vkdfj vjdkj \ndjf vdsn vkdfj vjdkj',
+      'E-COMMERCE',
+      'Transform Transactions\ninto Experiences',
+      "Revolutionize your online presence\nwith our E-commerce expertise.\nWe don't just build platforms;\nwe create experiences that turn transactions into lasting\ncustomer connections, driving growth\nfor your business.",
       illustration3,
       false);
 }
@@ -34,9 +34,9 @@ Widget DesktopContainer5() {
 //--------------------MOBILE---------------------------
 Widget MobileContainer5() {
   return CommonContainerMobile(
-      'USE ANYTIME',
-      'Use anytime \nwhen you \nneed',
-      'Tell us about ourseleves evakljd djf vdsn vkdfj vjdkj djf vdsn vkdfj vjdkj',
+      'E-COMMERCE',
+      'Transform Transactions\ninto Experiences',
+      "Revolutionize your online presence\nwith our E-commerce expertise.\nWe don't just build platforms;\nwe create experiences that turn transactions into lasting\ncustomer connections, driving growth\nfor your business.",
       illustration3,
       );
 }

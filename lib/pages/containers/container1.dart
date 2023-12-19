@@ -31,7 +31,7 @@ Widget DesktopContainer1(){
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
               Text(
-                'Track your \nExpenses to \nSave Money',
+                'Innovate\nCreate\nSucceed',
                 style: TextStyle(
                   fontFamily: 'Roboto',
                   fontSize: w!/20,
@@ -43,7 +43,7 @@ Widget DesktopContainer1(){
                 height: 5
               ),
               Text(
-                'Helps you orgainse your income and expense',
+                'Your ally in the digital transition',
                 style: TextStyle(
                   color: Colors.grey.shade400,
                   fontSize: 20
@@ -60,18 +60,8 @@ Widget DesktopContainer1(){
                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(AppColors.primary)),
                       onPressed: (){},
                       icon: Icon(Icons.arrow_drop_down),
-                      label: Text('Try free demo'),)
+                      label: Text('Try free consultation'),)
                   ),
-                  SizedBox(
-                    width: 20
-                  ),
-                  Text(
-                    '-Web, iOs and Android',
-                    style: TextStyle(
-                    color: Colors.grey.shade400,
-                    fontSize: 20
-                ),
-                  )
                 ],
               )
             ],)
@@ -107,7 +97,7 @@ Widget MobileContainer1(){
     Column(
     children: [
       Text(
-        'Track your \nExpenses to \nSave Money',
+        'Innovate\nCreate\nSucceed',
         textAlign: TextAlign.center,
         style: GoogleFonts.hindSiliguri(
                 fontSize: w! / 10,
@@ -119,7 +109,7 @@ Widget MobileContainer1(){
         height: 5
       ),
         Text(
-          'Helps you organize your \nincome and expense',
+          'Your ally in the\ndigital transition',
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.grey.shade400,
@@ -137,17 +127,8 @@ Widget MobileContainer1(){
                 style: ButtonStyle(backgroundColor: MaterialStateProperty.all(AppColors.primary)),
                 onPressed: (){},
                 icon: Icon(Icons.arrow_drop_down),
-                label: Text('Try free demo'),)
+                label: Text('Try free consultation'),)
             ),
-            SizedBox(
-              height: 20
-            ),
-            Text(
-              '-Web, iOs and Android',
-              textAlign: TextAlign.center,
-              style: GoogleFonts.hindSiliguri(fontSize:16,)
-          ),
-            
           ],
         )
       ],),
